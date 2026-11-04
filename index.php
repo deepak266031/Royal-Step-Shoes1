@@ -235,7 +235,7 @@
                 });
                 let result = await res.json();
                 if (result.status === 'success') {
-                    alert('Order successfully saved to MySQL database! Tracking ID: ' + orderData.trackingId);
+                    alert('Order successfully Tracking ID: ' + orderData.trackingId);
                     document.getElementById('checkout-form').reset();
                     switchView('catalog');
                 } else {
